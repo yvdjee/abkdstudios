@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include abakada *.css
+recursive-include abakada *.csv
+recursive-include abakada *.html
+recursive-include abakada *.ico
+recursive-include abakada *.js
+recursive-include abakada *.json
+recursive-include abakada *.md
+recursive-include abakada *.png
+recursive-include abakada *.py
+recursive-include abakada *.svg
+recursive-include abakada *.txt
+recursive-exclude abakada *.pyc
