@@ -193,3 +193,10 @@ app_license = "MIT"
 # Recommended only for DocTypes which have limited documents with untranslated names
 # For example: Role, Gender, etc.
 # translated_search_doctypes = []
+
+home_page = "translations"
+
+update_website_context = [
+  'abakada.abakada.doctype.translations.abakada.set_default_context',
+  'abakada.abakada.doctype.translations.abakada.get_site_context',
+]

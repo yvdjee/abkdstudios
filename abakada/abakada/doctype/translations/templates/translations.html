@@ -1,0 +1,24 @@
+{%  extends "templates/web.html" %}
+
+{% block page_content %}
+
+<div class="py-20 row">
+
+    <div class="col-sm-2">
+        <img alt="{{ img_alt }}" src="{{ img_url }}">
+    </div>
+
+    <div class="col">
+
+        <div>
+            <div>Title: <strong>{{ title }}</strong></div>
+        </div>
+        <br>
+        <p>{{ details }}</p>
+
+    </div>
+
+</div>
+
+
+{% endblock %}
