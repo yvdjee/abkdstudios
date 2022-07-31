@@ -14,6 +14,9 @@ def set_default_context(context):
 
 
 def get_site_context(context):
+    """
+        Get and pass the context and doc if its not None.
+    """
     if context.doc is not None:
         doc = context.doc
         search_context(context, doc)
