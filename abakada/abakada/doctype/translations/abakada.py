@@ -37,10 +37,10 @@ def search_context(context, doc):
                     for k,v in l.items():
                         l[k] = replace_context(v, doc)
 
-        if type(context[c]) is str:
+        elif type(context[c]) is str:
             context[c] = replace_context(context[c], doc)
 
-        if type(context[c]) is frappe._dict:
+        elif type(context[c]) is frappe._dict:
             for fd in context[c]:
                 context[c][fd] = replace_context(context[c][fd], doc)
 
