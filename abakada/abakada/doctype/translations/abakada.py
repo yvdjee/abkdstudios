@@ -4,7 +4,7 @@ from frappe.model.document import Document
 
 def set_default_context(context):
     """
-        Inject or set pre-defined values to context dictionary
+        Inject or set pre-defined values to the context dictionary
         Args:
             context: Website Context
     """
