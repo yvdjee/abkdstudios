@@ -37,7 +37,7 @@ def create_events():
         "doctype": "Event",
         "subject":"_Test Event 3",
         "starts_on": "2014-01-01",
-        "event_type": "Public"
+        "event_type": "Public",
         "event_individuals": [{
             "person": "test1@example.com"
         }]
